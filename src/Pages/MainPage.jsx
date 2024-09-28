@@ -8,6 +8,12 @@ import PubR4 from "../assets/Publication_1/r4.png";
 import Pub2I1 from "../assets/Publication_2/i1.png";
 import Pub2I2 from "../assets/Publication_2/i2.png";
 import Pub2I3 from "../assets/Publication_2/i3.png";
+// Images of Third research paper
+import Pub3I1 from "../assets/Publication_3/image1.png";
+import Pub3I2 from "../assets/Publication_3/image2.png";
+import Pub3I3 from "../assets/Publication_3/image3.png";
+import Pub3I4 from "../assets/Publication_3/image4.png";
+
 // Images of first Conference
 import Conf1I1 from "../assets/Conference_1/I1.png";
 import Conf1I2 from "../assets/Conference_1/I2.png";
@@ -62,9 +68,15 @@ const MainPage = ({ sectionRefs }) => {
         </h2>
         <p className="text-gray-900 mb-4">
           I'm a final year Integrated Masters (i.e. B.Tech. + M. Tech.) student
-          at the Indian Institute of Technology, Roorkee. Currently, I am
-          pursuing my Master’s Thesis Project from the Australian National
-          University under{" "}
+          at the 
+          <a href="https://www.iitr.ac.in/"
+          className="text-blue-600 hover:underline"
+          > Indian Institute of Technology, Roorkee</a>. Currently, I am
+          pursuing my Master’s Thesis Project from the 
+          <a href="https://www.anu.edu.au/"
+          className="text-blue-600 hover:underline"
+          > Australian National
+          University</a> under{" "}
           <a
             href="https://earthsciences.anu.edu.au/people/dr-sia-ghelichkhan"
             className="text-blue-600 hover:underline"
@@ -101,17 +113,17 @@ const MainPage = ({ sectionRefs }) => {
           algorithm, framework, and methodology. I also learned how to improve
           my work and incorporate changes based on inputs from senior
           researchers and teachers. To know more about me and my work, please
-          scroll down! You can find my CV here{" "}
+          scroll down! You can find my CV {" "}
           <a href={cv} download className="text-blue-600 hover:underline">
-            CV
+            here
           </a>
           .
         </p>
         <p>
-          <h3 className="mt-2 mb-1 font-medium">Research Interests : </h3>
+          <h3 className="font-bold mt-2 mb-1">Research Interests : </h3>
           <p>
-            Geophysical Modelling, Remote Sensing, Applied Machine Learning,
-            Petrophysics, Geodynamics
+            Geophysical Modelling, Seismology, Applied Machine Learning,
+            Petrophysics, Geodynamics, Risk Assessment 
           </p>
         </p>
       </section>
@@ -173,8 +185,8 @@ const MainPage = ({ sectionRefs }) => {
               Academic Internship in Deep Learning and Data Analytics
             </p>
             <p className="text-gray-700">Grade – A (Training by NUS and HPE)</p>
-            <a href={NUS} download className="text-blue-500 hover:underline">
-              Certificates
+            <a href={NUS} className="text-blue-500 hover:underline">
+              Certificate
             </a>
           </div>
 
@@ -190,7 +202,7 @@ const MainPage = ({ sectionRefs }) => {
             </p>
             <a
               href={Marksheet12}
-              download
+              
               className="text-blue-500 hover:underline"
             >
               Certificate
@@ -209,7 +221,7 @@ const MainPage = ({ sectionRefs }) => {
             </p>
             <a
               href={Marksheet10}
-              download
+              
               className="text-blue-500 hover:underline"
             >
               Certificate
@@ -298,7 +310,7 @@ const MainPage = ({ sectionRefs }) => {
                   assessment on xBD, a large satellite imagery
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Prahlada V. Mittal, Rishabh Bafna and Ankush Mittal Natural
+                  Prahlada V. Mittal, R Bafna and A Mittal <br/> Natural
                   Hazards 118 (2), Springer Journal, 1619-1643, 2023.
                   <a
                     href="https://doi.org/10.1007/s11069-023-06074-y"
@@ -328,7 +340,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={PubR2}
                     alt="Second photo of first research paper"
-                    className="w-full h-auto sm:w-1/3 rounded  shadow-lg mt-4"
+                    className="w-full h-auto sm:w-1/2 rounded  shadow-lg mt-4"
                   />
                   <p className="text-gray-600 sm:text-lg mt-2 text-lg">
                     In our work, we present an unsupervised density-based
@@ -342,7 +354,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={PubR3}
                     alt="Third photo of first research paper"
-                    className="w-full h-auto sm:w-1/2 rounded  shadow-lg mt-4"
+                    className="w-full h-auto sm:w-2.2/3 rounded  shadow-lg mt-4"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     The algorithm automatically selects the optimum number of
@@ -357,7 +369,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={PubR4}
                     alt="Fourth photo of first research paper"
-                    className="w-full h-auto sm:w-1/3 rounded shadow-lg mt-4"
+                    className="w-full h-auto sm:w-2/3 rounded shadow-lg mt-4"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     The navigation information is provided with aid of Google
@@ -373,11 +385,11 @@ const MainPage = ({ sectionRefs }) => {
               <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
                 <h4 className="text-xl font-semibold">
                   2. Machine Learning Models for Mining Social Media Data for
-                  Effective Natural Disaster
+                  Effective Natural Disaster (In Review)
                 </h4>
                 <p className="text-gray-700 mt-2">
                   Prahlada V. Mittal, S Karki, S Parasher, S Narang, A Mittal
-                  Under Review in Natural Hazards Revies, ASCE. 2022.
+                  <br/>Under Review in Natural Hazards Review, ASCE 
                   <a
                     href="https://doi.org/10.21203/rs.3.rs-3754456/v1"
                     className="text-blue-600 hover:underline ml-2"
@@ -390,7 +402,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Pub2I1}
                     alt="First photo of second Research paper"
-                    className="w-full h-auto sm:w-1/2 rounded shadow-lg mt-4"
+                    className="w-full h-auto sm:w-2/3 rounded shadow-lg mt-4"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     Satellite technology has emerged as a key tool for effective
@@ -404,7 +416,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Pub2I2}
                     alt="First photo of second Research paper"
-                    className="w-full h-auto sm:w-1/2 rounded shadow-lg mt-4"
+                    className="w-full h-auto sm:w-4.5/8 rounded shadow-lg mt-4"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     The sentiment analysis component categorizes
@@ -419,7 +431,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Pub2I3}
                     alt="First photo of second Research paper"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     An important aspect of the research was aid-analysis which
@@ -432,6 +444,94 @@ const MainPage = ({ sectionRefs }) => {
                 </div>
               </div>
             </li>
+
+
+            <li>
+              <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
+                <h4 className="text-xl font-semibold">
+                  3. From Field to Diagnosis: Leveraging Farmer Query to 
+                  Detect Crop Diseases in a Changing Climate (In Review)
+                </h4>
+                <p className="text-gray-700 mt-2">
+                  DS Rawat, A Agarwal, Prahlada V. Mittal, A Mittal, N Yeril
+                  <br/>Under Review in IEEE Transactions on AgriFood Electronics
+                
+                </p>
+                {/* Images for Second Research Paper */}
+                <div>
+                  
+                  <p className="text-gray-600 text-lg mt-2">
+                  Climate change is an escalating global crisis with far-reaching 
+                  consequences that extend to every facet of the natural and human 
+                  world. One of the most pressing dimensions of climate change is 
+                  its profound and multifaceted impact on human livelihoods, 
+                  agriculture, and the broader socio-economic fabric. In this study, 
+                  we examine the impact of climatic factors on disease and pest 
+                  infestations affecting apple orchards in Himachal Pradesh, India. 
+                  Utilizing data from the Kisan Call Center, a government-run farmer
+                   helpline spanning 2009 to 2022, we analyzed a variety of 
+                   farmer-reported issues. 
+                  </p>
+                  <img
+                    src={Pub3I1}
+                    alt="First photo of third Research paper"
+                    className="w-full h-auto sm:w-4.5/8 rounded shadow-lg mt-4"
+                  />
+
+            
+                  <p className="text-gray-600 text-lg mt-2">
+                  We systematically labelled these queries with 27 distinct 
+                  categories using our N-gram AgriLogic Framework, ensuring 
+                  each was scientifically accurate and relevant. To provide 
+                  timely aid and facilities to the farmers, we built a 
+                  classification model to classify the farmer queries. 
+                  The following word cloud represents the most sought-after 
+                  keywords in the farmer queries. 
+                  </p>
+              
+
+
+                  <img
+                    src={Pub3I2}
+                    alt="Third photo of third Research paper"
+                    className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
+                  />
+                  <p className="text-gray-600 text-lg mt-2">
+                  Our data analysis highlighted the drastic impact of extreme 
+                  weather events, such as intense rainfall and hail. We also 
+                  performed a temporal analysis, which illuminated the complex 
+                  interrelations among various infestations, providing new 
+                  insights into the progression of crop diseases. 
+                  </p>
+
+                  <img
+                    src={Pub3I3}
+                    alt="Third photo of third Research paper"
+                    className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
+                  />
+
+                  <p className="text-gray-600 text-lg mt-2">
+                  The overall flow of the paper can be seen in the figure below. 
+
+                  </p>
+                  <img
+                    src={Pub3I4}
+                    alt="fourth photo of third Research paper"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
+                  />
+
+                  <p className="text-gray-600 text-lg mt-2">
+                  Overall, the research offers a comprehensive framework for 
+                  forecasting and countering the detrimental effects of 
+                  climatic challenges on apple cultivation, enhancing the 
+                  resilience and sustainability of agriculture in the region. 
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+
           </ul>
         </div>
         {/* Conferences : SubSection */}
@@ -445,8 +545,8 @@ const MainPage = ({ sectionRefs }) => {
                   Logistic Regression
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  S Parasher, PV Mittal, S Karki, S Narang, A Mittal . 12th
-                  International Conference on Soft Computing for Problem Solving
+                  S Parasher, Prahlada V Mittal, S Karki, S Narang, A Mittal <br/>
+                  12th International Conference on Soft Computing for Problem Solving
                   (SocProS 2023), Aug 11-13, 2023
                   <a
                     href="https://doi.org/10.1007/978-981-97-3292-0_46"
@@ -469,7 +569,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Conf1I2}
                     alt="Second photo of Conference 1"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-4/8 rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     A significant hurdle is faced in estimating the population
@@ -483,7 +583,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Conf1I3}
                     alt="Third photo of Conference 1"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     The sentiment analysis gave us information about the panic
@@ -492,7 +592,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Conf1I4}
                     alt="Fourth photo of Conference 1"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     We also performed clustering using the DBSCAN algorithm. The
@@ -512,8 +612,8 @@ const MainPage = ({ sectionRefs }) => {
                   Prediction and Analysis
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Mridul Sharma, Prahlada V Mittal, Kaustubh Raj, Mohd. Taqi
-                  Daqiq, Anuradha Karunakalage, Ravi Sharma. International
+                  M Sharma, Prahlada V Mittal, K Raj, T
+                  Daqiq, A Karunakalage, R Sharma <br/> International
                   Conference on Computations and Data Science (CoDS-2024), March
                   08-10,2024
                 </p>
@@ -538,7 +638,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Conf2I2}
                     alt="Second photo of Conference 2"
-                    className="w-full  sm:w-1/2 h-auto sm:h-[30rem] rounded mt-4 shadow-lg"
+                    className="w-full  sm:w-2/4 h-auto rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     Moreover, the groundwater monitoring is done only twice a
@@ -564,8 +664,8 @@ const MainPage = ({ sectionRefs }) => {
                   GRACE-Fo Missions in Uttar Pradesh, India
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Kaustubh Raj, Prahlada V Mittal, Mridul Sharma, Anuradha
-                  Karunakalage, Mohd. Taqi Daqiq, Ravi Sharma, International
+                  K Raj, Prahlada V Mittal, M Sharma, A
+                  Karunakalage, T Daqiq, R Sharma <br/> International
                   Conference on Computations and Data Science (CoDS-2024), March
                   08-10,2024
                 </p>
@@ -592,7 +692,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Conf3I2}
                     alt="Second photo of Conference 3"
-                    className="w-full  sm:w-1/2 h-auto sm:h-[30rem] rounded mt-4 shadow-lg"
+                    className="w-full  sm:w-2/3 h-auto rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                     We aimed to bridge the data gap between these two missions
@@ -616,24 +716,20 @@ const MainPage = ({ sectionRefs }) => {
 
         {/* Research project : Subsection */}
         <div id="researchProjects" className="mt-2">
-          <h4 className="text-2xl font-bold">- Projects :</h4>
+          <h4 className="text-2xl font-bold">- Research Projects :</h4>
           <ul className="list-none space-y-6">
             <li>
               <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
                 <h4 className="text-xl font-semibold">
                   1. Constraining mantle properties by inverting for
-                  observations of dynamic topography Jun 2024 – Jun 2025
+                  observations of dynamic topography <br/> Jun 2024 – Jun 2025
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Dr. Sia Ghelichkhan, Prof. Rhodri Davies Australian National
-                  University, Australia (On-site)
+                  Dr. Sia Ghelichkhan & Prof. Rhodri Davies (Australian National
+                  University, Australia) 
                 </p>
                 <div>
-                  <img
-                    src={Pro1I1}
-                    alt="First photo of Project 1"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+          
                   <p className="text-gray-600 text-lg mt-2">
                     The topographical shape of the Earth is primarily influenced
                     by density variations within the crust and elastic
@@ -645,10 +741,11 @@ const MainPage = ({ sectionRefs }) => {
                     evolving forces within the mantle.
                   </p>
                   <img
-                    src={Pro1I2}
-                    alt="Second photo of Project 1"
+                    src={Pro1I1}
+                    alt="First photo of Project 1"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+          
                   <p className="text-gray-600 text-lg mt-2">
                     Thus, dynamic topography can be used to get information
                     about the temperature and viscosity of the mantle. Using
@@ -657,11 +754,13 @@ const MainPage = ({ sectionRefs }) => {
                     surface to get a synthetic model. Below is a snapshot of the
                     synthetically modelled temperature field.
                   </p>
+
                   <img
-                    src={Pro1I3}
+                    src={Pro1I2}
                     alt="Second photo of Project 1"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+               
                   <p className="text-gray-600 text-lg mt-2">
                     Then we compare this synthetic model with real-earth model
                     to derive adjoint sensitivities with respect to density and
@@ -670,6 +769,11 @@ const MainPage = ({ sectionRefs }) => {
                     and surface deformation processes. Below is a graph which
                     plots misfit functions to invert for viscosity and
                     temperature.
+                    <img
+                    src={Pro1I3}
+                    alt="Second photo of Project 1"
+                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                  />
                   </p>
                 </div>
               </div>
@@ -678,17 +782,13 @@ const MainPage = ({ sectionRefs }) => {
               <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
                 <h4 className="text-xl font-semibold">
                   2. Time-series analysis and feature extraction of past LPT
-                  signals from Aso Volcano Japan Apr 2023 – Sept 2023
+                  signals from Aso Volcano Japan <br/> Apr 2023 – Sept 2023
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Dr. Teh-Ru Alex Song  University College London, UK (Remote)
+                  Dr. Teh-Ru Alex Song (University College London, UK) - Remote
                 </p>
                 <div>
-                  <img
-                    src={Pro2I1}
-                    alt="First photo of Project 2"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+            
                   <p className="text-gray-600 text-lg mt-2">
                     The prediction of volcanic eruptions and the evaluation of
                     associated risks remain a timely and unresolved issue. We
@@ -703,23 +803,30 @@ const MainPage = ({ sectionRefs }) => {
                     idea.
                   </p>
                   <img
+                    src={Pro2I1}
+                    alt="First photo of Project 2"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
+                  />
+
+                  
+                  <p className="text-gray-600 text-lg mt-2">
+                    A DBScan cluster result based on some major features.
+                  </p>
+                  <img
                     src={Pro2I2}
                     alt="Second photo of Project 2"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
-                    A DBScan cluster result based on some major features.
-                  </p>
                 </div>
               </div>
             </li>
             <li>
               <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
                 <h4 className="text-xl font-semibold">
-                  3. Image Super-Resolution Using SRCNN Dec 2022 – Jan 2023
+                  3. Image Super-Resolution Using SRCNN <br/> Dec 2022 – Jan 2023
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Dr. Amirhassan Monajemi, National University of Singapore
+                  Dr. Amirhassan Monajemi  (National University of Singapore)
                 </p>
                 <div>
                   <img
@@ -743,6 +850,11 @@ const MainPage = ({ sectionRefs }) => {
                     alt="Second photo of Project 3"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+                   <img
+                    src={Pro3I3}
+                    alt="Third photo of Project 3"
+                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                  />
                   <p className="text-gray-600 text-lg mt-2">
                     We also analyzed the image quality metrics using PSNR (Peak
                     Signal to Noise Ratio), MSE (Mean Squared Error) and SSIM
@@ -750,11 +862,7 @@ const MainPage = ({ sectionRefs }) => {
                     preprocessing steps and the model architecture are shown
                     above.
                   </p>
-                  <img
-                    src={Pro3I3}
-                    alt="Third photo of Project 3"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+                 
 
                   <img
                     src={Pro3I4}
@@ -771,17 +879,13 @@ const MainPage = ({ sectionRefs }) => {
               <div className="bg-gray-100 p-4 shadow rounded-lg hover:bg-gray-200 transition">
                 <h4 className="text-xl font-semibold">
                   4. Gravity-Magnetic Survey and Modeling of Mohand Anticline
-                  Feb 2023 – May 2023
+                  <br/> Feb 2023 – May 2023
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Dr. Ashutosh Chamoli  IIT Roorkee
+                  Dr. Ashutosh Chamoli (IIT Roorkee)
                 </p>
                 <div>
-                  <img
-                    src={Pro4I1}
-                    alt="First photo of Project 2"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+                 
                   <p className="text-gray-600 text-lg mt-2">
                     The HFT is a major tectonic boundary in the Himalayan
                     Mountain range that separates the Indian subcontinent from
@@ -795,16 +899,25 @@ const MainPage = ({ sectionRefs }) => {
                     following figure.
                   </p>
                   <img
-                    src={Pro4I2}
-                    alt="Second photo of Project 2"
+                    src={Pro4I1}
+                    alt="First photo of Project 2"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+
+
+          
                   <p className="text-gray-600 text-lg mt-2">
                     To analyse the gravity survey data, we applied a few gravity
                     corrections such as drift correction, free-air correction
                     and bouger correction. Some of the results we got based on
                     plotting the data are shown below.
                   </p>
+
+                  <img
+                    src={Pro4I2}
+                    alt="Second photo of Project 2"
+                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
+                  />
                   <img
                     src={Pro4I3}
                     alt="Third photo of Project 4"
@@ -830,8 +943,8 @@ const MainPage = ({ sectionRefs }) => {
                   5. RMT and TEM Modelling of HFT Zone Mar 2023 – Apr 2023
                 </h4>
                 <p className="text-gray-700 mt-2">
-                  Prof. Bülent Tezkan, University of Cologne  Prof. Mohd.
-                  Israil, IIT Roorkee
+                  Prof. Bülent Tezkan  (University of Cologne, Germany) & Prof. Mohd.
+                  Israil (IIT Roorkee)
                 </p>
                 <div>
                   <img
@@ -867,15 +980,16 @@ const MainPage = ({ sectionRefs }) => {
         <h3 className="text-2xl font-semibold mb-4">Achievements</h3>
         <ol>
           <li>
-            1. FRT Award – Awarded Future Research Talent Award by the College
-            of Science, ANU for Undergraduate research excellence.
+            1. {" "}   
             <a
               href={frt_award}
-              download
+              
               className="text-blue-500 hover:underline"
             >
-              Certificate
-            </a>
+             FRT Award
+            </a> – Awarded Future Research Talent Award by the College
+            of Science, ANU for Undergraduate research excellence.
+            
           </li>
           <li>2. Cleared IIT-JEE with 99.2 %ile</li>
         </ol>
@@ -985,8 +1099,8 @@ const MainPage = ({ sectionRefs }) => {
               </span>
             </h3>
             <p className="text-gray-700">
-              Mentoring and guiding freshman year students{" "}
-              <a href={smp} download className="text-blue-500 hover:underline">
+              Mentoring and guiding freshman year students. {" "}
+              <a href={smp}  className="text-blue-500 hover:underline">
                 {" "}
                 Certificate
               </a>
@@ -1201,9 +1315,20 @@ const MainPage = ({ sectionRefs }) => {
       </section>
       <section id="curriculum"></section>
 
+ 
+      
+      
       {/* Contact Section */}
       <section id="contact" ref={sectionRefs.contact}>
         <h3 className="text-2xl font-semibold mb-4">Contact</h3>
+        <p>
+          You can download my CV {" "}
+          <a href={cv} download
+          className="text-blue-600 hover:underline">
+            here.
+          </a>
+        </p>
+        
         <p>
           Email :{" "}
           <a href="mailto: prahlada_vm@es.iitr.ac.in">
