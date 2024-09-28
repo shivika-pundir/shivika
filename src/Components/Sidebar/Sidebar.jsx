@@ -120,7 +120,7 @@ const Sidebar = ({ activeSection }) => {
               activeSection === "extraCurricular" ? "font-bold underline" : ""
             }`}
           >
-            Extra-curricular
+            Extra-Curricular
           </a>
         </li>
         <li>

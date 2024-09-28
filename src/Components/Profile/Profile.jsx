@@ -30,27 +30,14 @@ const Profile = () => {
 
       {/* Links */}
       <div className="space-y-3 px-2">
-        <a
-          href="https://scholar.google.com/citations?hl=en&user=VaoQmPUAAAAJ"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-500"
-        >
-          <FaGoogleScholar />
-          <span>Google Scholar</span>
-        </a>
-        <a
-          href="https://orcid.org/0000-0002-9799-0607"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-500"
-        >
-          <FaBookAtlas />
-          <span>OCRID</span>
-        </a>
-        <a
+      <a
           href="https://www.linkedin.com/in/prahlada-mittal"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-700"
         >
           <FaLinkedin />
           <span>LinkedIn</span>
         </a>
+        
         <a
           href="mailto: prahlada_vm@es.iitr.ac.in"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-red-500"
@@ -58,6 +45,7 @@ const Profile = () => {
           <MdEmail />
           <span>Email</span>
         </a>
+
         <a
           href="tel:+91 7217456990"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-600"
@@ -65,6 +53,7 @@ const Profile = () => {
           <IoMdContact />
           <span>Contact</span>
         </a>
+
         <a
           href="https://github.com/prahlad-mittal"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-gray-800"
@@ -72,6 +61,27 @@ const Profile = () => {
           <FaGithub />
           <span>Github</span>
         </a>
+
+        <a
+          href="https://orcid.org/0000-0002-9799-0607"
+          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-500"
+        >
+          <FaBookAtlas />
+          <span>ORCID</span>
+        </a>
+
+        <a
+          href="https://scholar.google.com/citations?hl=en&user=VaoQmPUAAAAJ"
+          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-500"
+        >
+          <FaGoogleScholar />
+          <span>Google Scholar</span>
+        </a>
+        
+      
+       
+       
+        
       </div>
     </div>
   );

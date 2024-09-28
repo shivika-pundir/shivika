@@ -53,7 +53,7 @@ import ANU_Offer from "../assets/Documents/2024_FRT Offer_Prahlada.pdf";
 import iitTranscript from "../assets/Documents/iitTranscript.pdf";
 import frt_award from "../assets/Documents/frt award.pdf";
 import smp from "../assets/Documents/smp_certificate.pdf";
-import cv from "../assets/Documents/resume_pvm_sept.pdf";
+import cv from "../assets/Documents/Prahlada_CV.pdf";
 // ICONS
 import { MdEmail, MdPhone, MdLink } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
@@ -67,7 +67,7 @@ const MainPage = ({ sectionRefs }) => {
           WELCOME to Prahlada’s webpage!
         </h2>
         <p className="text-gray-900 mb-4">
-          I'm a final year Integrated Masters (i.e. B.Tech. + M. Tech.) student
+          I'm a final year Integrated Masters (B.Tech. + M. Tech.) student
           at the 
           <a href="https://www.iitr.ac.in/"
           className="text-blue-600 hover:underline"
@@ -322,11 +322,8 @@ const MainPage = ({ sectionRefs }) => {
                 {/* Images of the research paper for breif description */}
                 <div className="flex flex-wrap gap-2 mt-4">
                   {/* <div className="flex items-center justify-center gap-3"> */}{" "}
-                  <img
-                    src={PubR1}
-                    alt="Sample output from framework"
-                    className="mt-4 rounded sm:w-1/3 h-auto w-full  shadow-lg"
-                  />
+                  
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     Population-based damage assessment using remote sensing data
                     is crucial in disaster management. This paper presents an
@@ -335,13 +332,15 @@ const MainPage = ({ sectionRefs }) => {
                     of clusters based on spatial distribution and assigns damage
                     levels to affected areas.
                   </p>
+
+                  <img
+                    src={PubR1}
+                    alt="Sample output from framework"
+                    className="mt-4 rounded sm:w-6/12 h-auto w-full  shadow-lg"
+                  />
                   {/* </div> */}
                   {/* <div className="flex items-center justify-center gap-3"> */}
-                  <img
-                    src={PubR2}
-                    alt="Second photo of first research paper"
-                    className="w-full h-auto sm:w-1/2 rounded  shadow-lg mt-4"
-                  />
+                  
                   <p className="text-gray-600 sm:text-lg mt-2 text-lg">
                     In our work, we present an unsupervised density-based
                     clustering algorithm that automatically makes spatial groups
@@ -352,10 +351,12 @@ const MainPage = ({ sectionRefs }) => {
                   {/* </div>
                 <div className="flex items-center justify-center gap-3"> */}
                   <img
-                    src={PubR3}
-                    alt="Third photo of first research paper"
-                    className="w-full h-auto sm:w-2.2/3 rounded  shadow-lg mt-4"
+                    src={PubR2}
+                    alt="Second photo of first research paper"
+                    className="w-full h-auto sm:w-1/2 rounded  shadow-lg mt-4"
                   />
+                  
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     The algorithm automatically selects the optimum number of
                     clusters based on the spatial distribution of the data and
@@ -364,18 +365,26 @@ const MainPage = ({ sectionRefs }) => {
                     presented based on the area of the region and the census
                     data. An overview of our approach is shown below.{" "}
                   </p>
+
+                  <img
+                    src={PubR3}
+                    alt="Third photo of first research paper"
+                    className="w-full h-auto sm:w-2.2/3 rounded  shadow-lg mt-4"
+                  />
                   {/* </div>
                 <div className="flex items-center justify-center gap-3"> */}
-                  <img
-                    src={PubR4}
-                    alt="Fourth photo of first research paper"
-                    className="w-full h-auto sm:w-2/3 rounded shadow-lg mt-4"
-                  />
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     The navigation information is provided with aid of Google
                     maps depicting the overall damage along with possibility of
                     transportation as shown below.
                   </p>
+
+                  <img
+                    src={PubR4}
+                    alt="Fourth photo of first research paper"
+                    className="w-full h-auto sm:w-2/3 rounded shadow-lg mt-4"
+                  />
                   {/* </div> */}
                 </div>
               </div>
@@ -494,7 +503,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Pub3I2}
                     alt="Third photo of third Research paper"
-                    className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
                   <p className="text-gray-600 text-lg mt-2">
                   Our data analysis highlighted the drastic impact of extreme 
@@ -557,20 +566,18 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 {/* Images for Conference 1 */}
                 <div>
-                  <img
-                    src={Conf1I1}
-                    alt="First photo of Conference 1"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+               
                   <p className="text-gray-600 text-lg mt-2">
                     Satellite-based natural disaster management and assessment
                     are prevalent.
                   </p>
                   <img
-                    src={Conf1I2}
-                    alt="Second photo of Conference 1"
-                    className="w-full h-auto sm:w-4/8 rounded mt-4 shadow-lg"
+                    src={Conf1I1}
+                    alt="First photo of Conference 1"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
+
+               
                   <p className="text-gray-600 text-lg mt-2">
                     A significant hurdle is faced in estimating the population
                     affected as well as the internal damage of buildings which
@@ -581,19 +588,23 @@ const MainPage = ({ sectionRefs }) => {
                     Gradient Boost, etc.
                   </p>
                   <img
-                    src={Conf1I3}
-                    alt="Third photo of Conference 1"
-                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
+                    src={Conf1I2}
+                    alt="Second photo of Conference 1"
+                    className="w-full h-auto sm:w-4/8 rounded mt-4 shadow-lg"
                   />
+
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     The sentiment analysis gave us information about the panic
                     situation among the people.
                   </p>
+
                   <img
-                    src={Conf1I4}
-                    alt="Fourth photo of Conference 1"
+                    src={Conf1I3}
+                    alt="Third photo of Conference 1"
                     className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     We also performed clustering using the DBSCAN algorithm. The
                     following figure represents the spatial distribution of
@@ -601,6 +612,12 @@ const MainPage = ({ sectionRefs }) => {
                     spatial characteristics and proximity of different aspects
                     of the disaster event.
                   </p>
+
+                  <img
+                    src={Conf1I4}
+                    alt="Fourth photo of Conference 1"
+                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
+                  />
                 </div>
               </div>
             </li>
@@ -619,11 +636,7 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 {/* Images for Conference 2 */}
                 <div>
-                  <img
-                    src={Conf2I1}
-                    alt="First photo of Conference 2"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+                 
                   <p className="text-gray-600 text-lg mt-2">
                     In pursuit of a comprehensive analysis of groundwater
                     dynamics in the state of Uttar Pradesh, India, we integrated
@@ -635,11 +648,13 @@ const MainPage = ({ sectionRefs }) => {
                     groundwater monitoring wells available in India. In this
                     study, we focused our research on the UP region.
                   </p>
+
                   <img
-                    src={Conf2I2}
-                    alt="Second photo of Conference 2"
-                    className="w-full  sm:w-2/4 h-auto rounded mt-4 shadow-lg"
+                    src={Conf2I1}
+                    alt="First photo of Conference 2"
+                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     Moreover, the groundwater monitoring is done only twice a
                     year. So, in this paper, we tried to find correlations and
@@ -653,6 +668,11 @@ const MainPage = ({ sectionRefs }) => {
                     integration of advanced machine-learning techniques and
                     satellite-derived information.
                   </p>
+                  <img
+                    src={Conf2I2}
+                    alt="Second photo of Conference 2"
+                    className="w-full  sm:w-2/4 h-auto rounded mt-4 shadow-lg"
+                  />
                 </div>
               </div>
             </li>
@@ -671,11 +691,7 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 {/* Images for Conference 3 */}
                 <div>
-                  <img
-                    src={Conf3I1}
-                    alt="First photo of Conference 3"
-                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
-                  />
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     The monitoring of global mass variations has undergone a
                     transformative evolution with the implementation of the
@@ -690,10 +706,11 @@ const MainPage = ({ sectionRefs }) => {
                     missions.
                   </p>
                   <img
-                    src={Conf3I2}
-                    alt="Second photo of Conference 3"
-                    className="w-full  sm:w-2/3 h-auto rounded mt-4 shadow-lg"
+                    src={Conf3I1}
+                    alt="First photo of Conference 3"
+                    className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
+                  
                   <p className="text-gray-600 text-lg mt-2">
                     We aimed to bridge the data gap between these two missions
                     and assess the groundwater storage variations (GWSA) in the
@@ -708,6 +725,11 @@ const MainPage = ({ sectionRefs }) => {
                     the utility of the models beyond the initial training
                     period.
                   </p>
+                  <img
+                    src={Conf3I2}
+                    alt="Second photo of Conference 3"
+                    className="w-full  sm:w-2/3 h-auto rounded mt-4 shadow-lg"
+                  />
                 </div>
               </div>
             </li>
@@ -805,7 +827,7 @@ const MainPage = ({ sectionRefs }) => {
                   <img
                     src={Pro2I1}
                     alt="First photo of Project 2"
-                    className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
+                    className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
                   />
 
                   
@@ -1320,15 +1342,16 @@ const MainPage = ({ sectionRefs }) => {
       
       {/* Contact Section */}
       <section id="contact" ref={sectionRefs.contact}>
-        <h3 className="text-2xl font-semibold mb-4">Contact</h3>
+        <h3 className="text-2xl font-semibold mb-4">CV & Contact</h3>
         <p>
-          You can download my CV {" "}
+          To download my CV, click {" "}
           <a href={cv} download
           className="text-blue-600 hover:underline">
-            here.
+            Prahlada's CV. 
           </a>
         </p>
-        
+        <br/>
+
         <p>
           Email :{" "}
           <a href="mailto: prahlada_vm@es.iitr.ac.in">
