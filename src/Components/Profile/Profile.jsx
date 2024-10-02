@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../assets/profile.jpg";
+import Photo from "../../assets/profile.png";
 
 import {
   FaGoogleScholar,
@@ -12,7 +12,7 @@ import { IoMdContact } from "react-icons/io";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center p-5 bg-white rounded-lg shadow-lg h-full">
+    <div className="flex flex-col items-center p-5 bg-amber-800 rounded-lg shadow-lg h-full">
       {/* Profile Picture */}
       <div className="mb-5">
         <img
@@ -24,59 +24,59 @@ const Profile = () => {
       </div>
 
       {/* Name */}
-      <h2 className="text-2xl font-semibold mb-4 text-left px-2">
-        Prahlada V Mittal
+      <h2 className="text-2xl font-semibold mb-4 text-white text-left px-2">
+        Shivika Pundir
       </h2>
 
       {/* Links */}
       <div className="space-y-3 px-2">
       <a
-          href="https://www.linkedin.com/in/prahlada-mittal"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-700"
+          href="https://www.linkedin.com/in/shivika-pundir/"
+          className="flex items-center justify-center space-x-2 text-white hover:text-blue-700"
         >
           <FaLinkedin />
           <span>LinkedIn</span>
         </a>
         
         <a
-          href="mailto: prahlada_vm@es.iitr.ac.in"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-red-500"
+          href="mailto: shivika@es.iitr.ac.in"
+          className="flex items-center justify-center space-x-2 text-white hover:text-red-500"
         >
           <MdEmail />
           <span>Email</span>
         </a>
 
         <a
-          href="tel:+91 7217456990"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-600"
+          href="tel:+91 8979926686"
+          className="flex items-center justify-center space-x-2 text-white hover:text-green-600"
         >
           <IoMdContact />
           <span>Contact</span>
         </a>
 
         <a
-          href="https://github.com/prahlad-mittal"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-gray-800"
+          href="https://github.com/shivika-pundir"
+          className="flex items-center justify-center space-x-2 text-white hover:text-gray-800"
         >
           <FaGithub />
           <span>Github</span>
         </a>
 
         <a
-          href="https://orcid.org/0000-0002-9799-0607"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-500"
+          href="https://orcid.org/0009-0002-4801-7613"
+          className="flex items-center justify-center space-x-2 text-white hover:text-green-500"
         >
           <FaBookAtlas />
           <span>ORCID</span>
         </a>
 
-        <a
+        {/* <a
           href="https://scholar.google.com/citations?hl=en&user=VaoQmPUAAAAJ"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-500"
         >
           <FaGoogleScholar />
           <span>Google Scholar</span>
-        </a>
+        </a> */}
         
       
        
