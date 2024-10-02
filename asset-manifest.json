@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/shivika/static/css/main.0b4649b4.css",
+    "main.js": "/shivika/static/js/main.4fc34425.js",
+    "static/media/image3.png": "/shivika/static/media/image3.c63125d7a17ebfc2dd97.png",
+    "static/media/2024_FRT Offer_Prahlada.pdf": "/shivika/static/media/2024_FRT Offer_Prahlada.bb749a130a07233b329a.pdf",
+    "static/media/Shivika_CV.pdf": "/shivika/static/media/Shivika_CV.bc95888dc56e3763c78d.pdf",
+    "static/media/i1.png": "/shivika/static/media/i1.6e334b0f1f9a04f38742.png",
+    "static/media/profile.png": "/shivika/static/media/profile.f11d7411ea4223d4878c.png",
+    "static/media/I1.png": "/shivika/static/media/I1.7dc04147063af720b795.png",
+    "static/media/smp_certificate.pdf": "/shivika/static/media/smp_certificate.5f73a5d844ee9d12936c.pdf",
+    "static/media/I3.png": "/shivika/static/media/I3.5c529970e1ac077238f7.png",
+    "static/media/image2.png": "/shivika/static/media/image2.386fe5c3ea6f9c3cfd85.png",
+    "static/media/r4.png": "/shivika/static/media/r4.896c446ca86c6b912b75.png",
+    "static/media/image4.png": "/shivika/static/media/image4.9bc1562510552e717645.png",
+    "static/media/image1.png": "/shivika/static/media/image1.6d270380e5af4768ed44.png",
+    "static/media/image.png": "/shivika/static/media/image.79e9015869633f517754.png",
+    "static/media/Shivika_12th_state_gov.pdf": "/shivika/static/media/Shivika_12th_state_gov.722a3cc7b2b2211241d9.pdf",
+    "static/media/r1.png": "/shivika/static/media/r1.6202475fe6d77c3f4ef9.png",
+    "static/media/Marksheet10.pdf": "/shivika/static/media/Marksheet10.453f6814e70d4d30055d.pdf",
+    "static/media/I2.png": "/shivika/static/media/I2.06c84ca677963cd60a8e.png",
+    "static/media/Marksheet12.pdf": "/shivika/static/media/Marksheet12.13fea91a67b1dd63840e.pdf",
+    "static/media/I4.png": "/shivika/static/media/I4.051e79f4aeb7d172ab1f.png",
+    "static/media/NUS Training Certificate.pdf": "/shivika/static/media/NUS Training Certificate.a69b0618b3705ff597a3.pdf",
+    "static/media/iitTranscript.pdf": "/shivika/static/media/iitTranscript.3a0cd4c2c012265e0204.pdf",
+    "static/media/r3.png": "/shivika/static/media/r3.d3cf7234d3fca11e86b8.png",
+    "static/media/r2.png": "/shivika/static/media/r2.d2d9d464142c7a1fb47d.png",
+    "static/media/i2.png": "/shivika/static/media/i2.e483b301d449e6dd8b2e.png",
+    "static/media/i3.png": "/shivika/static/media/i3.bb5637836b6fa7e02aaf.png",
+    "static/media/image5.png": "/shivika/static/media/image5.15f1a3da9896452ce62b.png",
+    "index.html": "/shivika/index.html",
+    "main.0b4649b4.css.map": "/shivika/static/css/main.0b4649b4.css.map",
+    "main.4fc34425.js.map": "/shivika/static/js/main.4fc34425.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4649b4.css",
+    "static/js/main.4fc34425.js"
+  ]
+}
