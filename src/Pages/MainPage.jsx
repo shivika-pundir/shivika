@@ -86,7 +86,7 @@ const MainPage = ({ sectionRefs }) => {
             className="text-blue-600 hover:underline"
           >
           Prof. Simanchal Padhy
-          </a>{" "}
+          </a>
           {/* <a
             href="https://earthsciences.anu.edu.au/people/dr-sia-ghelichkhan"
             className="text-blue-600 hover:underline"
@@ -116,7 +116,7 @@ const MainPage = ({ sectionRefs }) => {
         quite a few research skills especially applying theory to practice, 
         reading papers and understanding important information, picking up a 
         new topic and learning efficiently, presenting my work, and also writing 
-        papers. . I have also submitted a conference paper in AGU and am working 
+        papers. I have also submitted a conference paper in AGU and am working 
         on a journal paper on the same work. Alongside my academic pursuits, 
         I developed a strong interest in teaching. For more information about me 
         and my work, feel free to explore further! You can access my CV{" "}
