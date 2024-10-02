@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shivika/static/css/main.0b4649b4.css",
-    "main.js": "/shivika/static/js/main.4fc34425.js",
+    "main.js": "/shivika/static/js/main.a3d5c220.js",
     "static/media/image3.png": "/shivika/static/media/image3.c63125d7a17ebfc2dd97.png",
     "static/media/2024_FRT Offer_Prahlada.pdf": "/shivika/static/media/2024_FRT Offer_Prahlada.bb749a130a07233b329a.pdf",
     "static/media/Shivika_CV.pdf": "/shivika/static/media/Shivika_CV.bc95888dc56e3763c78d.pdf",
@@ -30,10 +30,10 @@
     "static/media/image5.png": "/shivika/static/media/image5.15f1a3da9896452ce62b.png",
     "index.html": "/shivika/index.html",
     "main.0b4649b4.css.map": "/shivika/static/css/main.0b4649b4.css.map",
-    "main.4fc34425.js.map": "/shivika/static/js/main.4fc34425.js.map"
+    "main.a3d5c220.js.map": "/shivika/static/js/main.a3d5c220.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4649b4.css",
-    "static/js/main.4fc34425.js"
+    "static/js/main.a3d5c220.js"
   ]
 }
